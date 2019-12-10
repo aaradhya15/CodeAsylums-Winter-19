@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Dec  8 13:09:51 2019
+
+@author: AARADHYA JAIN
+ 
+"""
+
+n = int(input("enter n"))
+for i in range(n):
+    
+    for k in range(i):
+        print("  ", end="")
+        
+    for j in range(i,n):
+        print(str(j+1),end=" ")
+    print()
