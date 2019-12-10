@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Dec  8 13:24:01 2019
+
+@author: AARADHYA JAIN
+find second largest number in an array
+"""
+
+n = int(input("enter the number of elements"))
+arr=[]
+max=0
+max2=0
+for i in range(n):
+    a = int(input("enter the" + str(i+1) + " element"))
+    if a>max:
+        max=a
+    if a<max and a>=max2:
+        max2=a
+    #print(str(max)+ "   "+ str(max2))
+    
+print("second largest number is "+str(max2))  
